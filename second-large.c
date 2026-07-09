@@ -13,12 +13,12 @@ int main()
     {
         if(a[i] > max)
         {
-            second = max;
-            max = a[i];
+         second = max;
+         max = a[i];
         }
         else if(a[i] > second && a[i] != max)
         {
-            second = a[i];
+          second = a[i];
         }
     }
     printf("%d", second);
